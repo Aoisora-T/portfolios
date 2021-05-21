@@ -462,7 +462,7 @@ img {
   height: auto;
   color: #f2f2f2;
   text-shadow: 2px 0 5px black;
-  background-image: url("/images/br-entry3.jpg");
+  background-image: url("https://github.com/Aoisora-T/portfolios/blob/main/images/br-entry3.jpg?raw=true");
   background-size: cover;
   background-position: center;
   padding-bottom: 50px;
@@ -846,7 +846,7 @@ Stylesheet: 1280px以上のモニタで適用
     font-size: 45px;
   }
   .introduction__introduce {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5em;
   }
   .skills {
