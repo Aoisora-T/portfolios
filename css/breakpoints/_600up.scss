@@ -1,0 +1,201 @@
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+
+h2 {
+  font-size: 34px;
+}
+
+.header {
+  &__nav {
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+
+    > ul {
+      display: flex;
+    }
+  }
+
+  &__nav-element {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__nav-element a {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 51px;
+    color: #000000b0;
+  }
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.introduction {
+  &__inner {
+    width: 83%;
+  }
+  &__title {
+    font-size: 30px;
+
+    > span {
+      font-size: 36px;
+      margin-right: 2px;
+    }
+  }
+
+  &__educartion {
+    > p {
+      &:nth-of-type(2) {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &__introduce {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-left: 30px;
+  }
+}
+
+.skills {
+  &__inner {
+    width: 83%;
+  }
+  &__title {
+    > span {
+      font-size: 40px;
+      margin-right: 2px;
+    }
+  }
+
+  &__items {
+    &::after {
+      content: "";
+      display: block;
+      width: 28%;
+      height: 0;
+    }
+  }
+
+  &__item {
+    flex-basis: 28%;
+  }
+
+  &__icon {
+    height: 150px;
+  }
+}
+
+.service {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  &__inner {
+    width: 83%;
+  }
+
+  &__title {
+    margin-bottom: 80px;
+    > span {
+      font-size: 40px;
+      margin-right: 2px;
+    }
+  }
+
+  &__item {
+    margin-bottom: 80px;
+  }
+
+  &__img {
+    height: 350px;
+    width: 85%;
+  }
+
+  &__text {
+    width: 70%;
+  }
+
+  &__ele {
+    margin-bottom: 30px;
+  }
+
+  &__attention {
+    font-size: 18px;
+  }
+}
+
+.works {
+  &__inner {
+    width: 83%;
+  }
+
+  &__title {
+    margin-bottom: 80px;
+    > span {
+      font-size: 40px;
+      margin-right: 2px;
+    }
+  }
+
+  &__portfolio {
+    &:nth-child(1) {
+      margin-bottom: 60px;
+    }
+  }
+
+  &__img {
+    margin-bottom: 40px;
+  }
+
+  &__dec {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left {
+    flex-basis: 20%;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  &__right {
+    margin-left: 0;
+    margin-bottom: 0;
+    flex-basis: 75%;
+    font-size: 16px;
+  }
+}
+
+.contact {
+  height: 450px;
+
+  &__inner {
+    padding-top: 150px;
+  }
+
+  &__title {
+    font-size: 45px;
+    margin-bottom: 80px;
+  }
+
+  &__btn {
+    width: 70%;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+
+  &__footer {
+    font-size: 22px;
+  }
+}

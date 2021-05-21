@@ -1,0 +1,128 @@
+/******************************************************************
+
+Stylesheet: 960px以上のモニタで適用
+
+******************************************************************/
+
+h1 {
+  font-size: 32px;
+}
+
+.header {
+  &__nav {
+    margin-right: 30px;
+  }
+
+  &__nav-element {
+    margin-right: 15px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__nav-element a {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 51px;
+    color: #000000b0;
+  }
+}
+
+.main-top {
+  &__title {
+    padding-bottom: 10px;
+  }
+  &__sub-title {
+    font-size: 22px;
+  }
+}
+
+.introduction {
+  &__inner {
+    width: 90%;
+  }
+
+  &__title {
+    margin-bottom: 80px;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__introduce {
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 1.8em;
+  }
+}
+
+.skills {
+  &__inner {
+    width: 90%;
+  }
+}
+
+.service {
+  &__inner {
+    width: 85%;
+  }
+
+  &__img {
+    height: auto;
+    margin-top: 35px;
+  }
+
+  &__ele {
+    margin-bottom: 40px;
+  }
+
+  &__dec {
+    font-size: 20px;
+  }
+
+  &__charge p {
+    font-size: 22px;
+  }
+
+  &__price {
+    font-size: 24px;
+  }
+
+  &__guideline {
+    margin-bottom: 10px;
+  }
+
+  &__attention {
+    font-size: 18px;
+  }
+}
+
+.contact {
+  &__btn {
+    width: 60%;
+  }
+}
+
+.works {
+  padding-bottom: 80px;
+  &__inner {
+    width: 85%;
+    padding-bottom: 0;
+  }
+
+  &__portfolio {
+    &:nth-child(1) {
+      margin-bottom: 80px;
+    }
+  }
+
+  &__right {
+    font-size: 24px;
+  }
+  &__left {
+    font-size: 24px;
+  }
+}
