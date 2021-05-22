@@ -25,7 +25,7 @@ li {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -172,7 +172,7 @@ img {
 .main-top__sub-title {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   color: #00000069;
 }
 
@@ -718,7 +718,7 @@ Stylesheet: 960px以上のモニタで適用
 
 ******************************************************************/
   h1 {
-    font-size: 32px;
+    font-size: 26px;
   }
   .header__nav {
     margin-right: 30px;
@@ -739,7 +739,7 @@ Stylesheet: 960px以上のモニタで適用
     padding-bottom: 10px;
   }
   .main-top__sub-title {
-    font-size: 22px;
+    font-size: 16px;
   }
   .introduction__inner {
     width: 90%;
@@ -764,23 +764,22 @@ Stylesheet: 960px以上のモニタで適用
     width: 90%;
   }
   .service__inner {
-    width: 85%;
+    width: 80%;
   }
   .service__img {
-    height: auto;
     margin-top: 35px;
   }
   .service__ele {
     margin-bottom: 40px;
   }
   .service__dec {
-    font-size: 20px;
+    font-size: 16px;
   }
   .service__charge p {
-    font-size: 22px;
+    font-size: 18px;
   }
   .service__price {
-    font-size: 24px;
+    font-size: 20px;
   }
   .service__guideline {
     margin-bottom: 10px;
@@ -802,10 +801,10 @@ Stylesheet: 960px以上のモニタで適用
     margin-bottom: 80px;
   }
   .works__right {
-    font-size: 24px;
+    font-size: 18px;
   }
   .works__left {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
@@ -819,16 +818,16 @@ Stylesheet: 1280px以上のモニタで適用
     font-size: 36px;
   }
   .header__nav {
-    margin-right: 40px;
+    margin-right: 35px;
   }
   .header__nav-element {
-    margin-right: 20px;
+    margin-right: 18px;
   }
   .header__nav-element:last-child {
     margin-right: 0;
   }
   .header__nav-element a {
-    font-size: 14px;
+    font-size: 13px;
   }
   .introduction {
     padding-top: 180px;
@@ -872,6 +871,9 @@ Stylesheet: 1280px以上のモニタで適用
   .service {
     padding-top: 80px;
   }
+  .service__inner {
+    width: 85%;
+  }
   .service__items {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -893,6 +895,9 @@ Stylesheet: 1280px以上のモニタで適用
   .service__text {
     width: 90%;
   }
+  .service__img {
+    height: auto;
+  }
   .service__dec {
     font-size: 16px;
   }
@@ -903,7 +908,7 @@ Stylesheet: 1280px以上のモニタで適用
     font-size: 20px;
   }
   .service__attention {
-    font-size: 24px;
+    font-size: 20px;
   }
   .works {
     padding-top: 80px;
@@ -934,12 +939,6 @@ Stylesheet: 1280px以上のモニタで適用
   }
   .works__img {
     height: 250px;
-  }
-  .works__right {
-    font-size: 20px;
-  }
-  .works__left {
-    font-size: 20px;
   }
   .contact {
     height: 500px;
